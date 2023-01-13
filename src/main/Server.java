@@ -162,7 +162,7 @@ public class Server implements Runnable {
             }
         }
 
-        public void shutdown() {
+        public void shutdown() { //ปิด
             try {
                 running = false;
                 out.close();
